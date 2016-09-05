@@ -1,0 +1,28 @@
+$enable-rounded: false;
+$enable-transitions: true;
+
+$gray-dark:                 #383735; //used for copy
+$gray:                      #6D6A66;
+$gray-light:				#9B9B9B;
+
+
+
+//Colors 
+$brand-primary:             #F8991C !default;
+$brand-success:             #FFEBD2 !default;
+$brand-info:                #5bc0de !default;
+$brand-warning:             #D0CABF !default;
+$brand-danger:              #E31F25 !default;
+
+
+$body-bg:                    #636666 !default;
+$body-color:                 #fff !default;
+
+
+//Typography
+$font-family-base:           Arial, sans-serif;
+$font-family-sans-serif:     $font-family-base;
+$font-family-serif:          "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+
+$headings-font-family:      $font-family-sans-serif;
+$headings-font-weight:		300;
