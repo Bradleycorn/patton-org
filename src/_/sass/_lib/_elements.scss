@@ -1,0 +1,42 @@
+@import 'fontawesome/scss/variables';
+@import 'fontawesome/scss/mixins';
+
+
+.page-title {
+	font-family: $AltSerifFont;
+    font-weight: 400;
+    color: #F8991C;
+}
+
+.section-title {
+	font-family: $SerifFont;
+	font-size: 1.25em;
+    font-weight: 400;
+}
+
+a[href^='tel:'] {
+	white-space: nowrap;
+}
+
+
+.breadcrumbs {
+	margin-bottom: 1.5em;
+
+	a{ 
+		text-decoration: none !important;
+
+		&::after { 
+			content: ">";
+			margin-left: 10px;
+			margin-right: 5px;
+			color: #fff;
+		}
+	}
+}
+
+
+@include media-breakpoint-down(sm) {
+	.page-title {
+		display: none;
+	}
+}

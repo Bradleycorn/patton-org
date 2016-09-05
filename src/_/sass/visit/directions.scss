@@ -1,0 +1,21 @@
+@import "layout";
+
+#MapContainer {
+	width: 100%; 
+	height: 300px;
+	margin-bottom: 1.5em;
+}
+
+.directions-header {
+	font-family: $AltSerifFont;
+}
+
+.directions {
+	margin-top: 1em;
+}
+
+@include media-breakpoint-up(md) {
+	#MapContainer {
+		height: 500px;	
+	}
+}

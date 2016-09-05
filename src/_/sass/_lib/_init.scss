@@ -1,0 +1,49 @@
+/* TYPOGRAPHY
+   ========== */
+
+
+
+$SansFont: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$SerifFont: "Roboto Slab", Georgia, "Times New Roman", serif;
+$AltSerifFont: "Roboto Condensed", Georgia, "Times New Roman", serif;
+$BodyFont: Arial, sans-serif;
+
+$NarrowFont: $SansFont;
+
+
+
+/* COLORS
+   ====== */
+$PrimaryColor			: #F8991C;
+$BackgroundColor		: #636666;
+$HighlightColor			: #FFEBD2;
+
+$GrayColor 				: #6D6A66;
+$LightGrayColor			: #9B9B9B;
+$DarkGrayColor			: #383735;
+
+
+
+//Basic Colors for Backgrounds, copy, and links
+$CopyColor				: #fff;
+$LinkColor				: $PrimaryColor;
+
+
+//Other Colors
+
+
+/* Z-INDEX MASTER LIST
+ * ===================
+ *
+ *   z-index's should respect the following boundaries 
+ *
+ *        > 9000: SUPER important things that should appear over EVERYTHING (should be used very rarely)
+ *   8000 - 9000: Site Navigation and Menus
+ */
+
+
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins/breakpoints';
+@import 'mixins';
+
+body { background: $BackgroundColor; }

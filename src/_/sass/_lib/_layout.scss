@@ -1,0 +1,278 @@
+@import '_lib/init';
+@import '_lib/elements';
+
+body,
+html {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
+#HeaderBar .bar-wrapper{
+	margin-top: 1em;
+	background-image: url('/_/img/home/header-bg.jpg');
+ 	background-position: 0 50%;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+
+	.bar-content {
+		background-color: rgba(#000, .4);
+		color: $HighlightColor;
+		text-align: center;
+		width: 100%;
+
+		.quote {
+			width: 67%;
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 1em;
+
+			font-family: $SerifFont;
+
+
+			.author {
+				white-space: nowrap;
+
+				&::before {
+					margin-left: 3px;
+					margin-right: 3px;
+					content: "\2014";
+				}	
+			}
+		}
+	}
+}
+
+#SiteSearch {
+	padding: 1em 0;
+
+	input, button {
+		border: none;
+		outline: none;
+		color: $CopyColor;
+		background: rgba(#000, 0.6);
+	}
+
+	input {
+		width: 30%;
+		padding-bottom: 3px;
+		padding-top: 2px;
+		padding-left: 2px;		
+	}
+}
+
+
+/**
+ * SITE NAVIGATION
+ * ===============
+ */
+
+#SiteNav {
+
+	#SiteNavHeader {
+		color: #fff;
+
+		button { outline: none; vertical-align: bottom;}
+
+		h3 { display: inline-block; }
+	}
+
+	.nav-link {
+		background-color: $PrimaryColor;
+		color: $DarkGrayColor;
+		text-transform: uppercase;
+		font-size: .85em;
+		font-family: $AltSerifFont;
+		font-weight: 700;
+	}
+}
+
+#PageCallout {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: stretch;
+	margin-bottom: 1em;
+
+
+	.callout {
+		flex: 0 1 100%;
+	}
+
+	.callout-content {
+		background: #000;
+		color: $PrimaryColor;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $AltSerifFont;
+		font-size: 1.5em;
+		padding: 1.75em 1em;
+	}
+
+	.callout-image {
+		background-image: url("/_/img/home/header-bg.jpg");
+    	background-position: 0 50%;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	min-height: 200px;
+	}
+}
+
+
+@include media-breakpoint-up(lg) {
+
+	#PageCallout {
+		flex-flow: row nowrap;
+
+		.callout {
+			flex: 0 1 50%;
+		}
+
+		.callout-image {
+			min-height: 0;
+		}
+	}
+}
+
+
+.foundation-seal{
+	text-align: center;
+	font-size: .85em;
+	color: $HighlightColor;
+	font-family: $SansFont;
+
+	img {
+		max-width: 50%;
+		margin: 2em auto 1em;
+	}
+}
+
+
+
+#SiteFooter {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	background-color: $BackgroundColor;
+	color: #fff;
+	min-height: 50px;
+}
+
+@include media-breakpoint-down(md) {
+	#SiteHeader {
+		margin-bottom: 1em;
+	}
+
+	#SiteNav {
+		.navbar {
+			padding: 0;
+		}
+
+		.nav-link {
+			padding-top: .75em;
+			padding-bottom: .75em;
+		}
+
+		#SiteNavHeader {
+			background: $PrimaryColor;
+			padding-top: .5em;
+			padding-bottom: .5em;
+		}
+
+		#SiteMenu {
+			margin-top: .5em;
+		}
+	}
+
+	#PrimaryContent {
+		margin-top: .5em;
+	}
+}
+
+@include media-breakpoint-only(md) {
+	#HeaderBar .bar-wrapper .bar-content {
+		width: 100%;
+
+		.quote {
+			margin-top: 1em;
+		}
+	}
+}
+
+@include media-breakpoint-up(md) {
+	#SiteHeader .row {display: flex;}
+	
+	#SiteLogo { max-width: 100%; }
+	#HeaderBar .bar-wrapper{
+		margin-top: 0;
+		height: 100%;
+
+	 	display: flex;
+	 	flex-flow: row nowrap;
+	 	justify-content: flex-end;
+	 	align-items: stretch;
+
+		.bar-content { height: 100%; }
+	}
+
+
+	main { margin-top: 1em; }
+
+	#SiteNav {
+
+		
+		/** Bootstrap has a bug in the navbar-toggleable stuff
+		 *	in which javascript sets the toggleable's height to
+		 *	0, even when it's not in toggleable mode.
+		 *	This overrides that.
+		 */
+		#SiteMenu { height: auto !important;}
+
+		$lineHeight: 1.1em;
+
+		.navbar {
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+		}
+
+		.nav-link {
+			line-height: $lineHeight * 2;
+			//min-height: ($lineHeight * 2) + (.5em * 2); //bootstrap specifies .5em top and bottom padding on .nav-links
+
+			//vertical center
+		    display: flex;
+		    justify-content: center;
+		    flex-direction: row;
+		    align-items: center;
+		    text-align: center;
+		    border-radius: 5px;
+		    text-transform: uppercase;
+
+		    &:hover,
+		    &.active {
+		    	background-color: #000;
+		    	color: #fff;
+		    }
+		}
+
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	#HeaderBar .bar-wrapper .bar-content { 
+
+		.quote {
+			margin-top: 2em;
+			font-size: 1.25em;
+		}
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	#HeaderBar .bar-wrapper .bar-content .quote {
+			margin-top: 2.5em;
+			font-size: 1.5em;
+	}
+}

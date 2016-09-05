@@ -1,0 +1,22 @@
+@import "layout";
+
+#PageCallout .callout-image {
+	background-image: url("/_/img/features/beach-head.jpg");
+}
+
+
+.page-menu {
+	padding: 1em;
+	background-color: darken($BackgroundColor, 10%);
+
+	header {
+		margin-bottom: 1em;
+		font-weight: 700;
+		font-size: 1.25em;
+	}
+
+	li {
+		padding: .25em 0;
+	}
+
+}
