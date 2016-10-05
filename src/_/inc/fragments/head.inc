@@ -34,6 +34,7 @@
 
 		<!-- build:css(src) /_/lib/bootstrap/css/bootstrap.min.css -->
 		<link rel="stylesheet" href="/_/lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/_/bower/tether/dist/css/tether.min.css">
 		<!-- endbuild -->
 
 		<!-- build:css(src) /_/css/site-styles.css -->

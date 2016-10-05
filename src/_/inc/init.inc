@@ -11,7 +11,7 @@
 
 	//Google API's
 	define("GOOGLE_API_KEY", "AIzaSyDRg91mQPYDuy-ee-tjx14FpOzVjKfwdpk");
-
+	define("ANALYTICS_ID", "UA-85229511-1");
 
 	require_once("_/inc/functions/base-functions.inc");
 
