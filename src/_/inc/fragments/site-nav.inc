@@ -15,17 +15,17 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=getActivePageClass("Exhibits");?>" href="/exhibits/">
+				<a class="nav-link <?=getActivePageClass("Exhibits");?>" href="/exhibits.php">
 					Exhibits
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=getActivePageClass(["Plan Your Visit", "Nearby Attractions", "Groups & Field Trips"]);?>" href="/visit/">
+				<a class="nav-link <?=getActivePageClass(array("Plan Your Visit", "Nearby Attractions", "Groups & Field Trips"));?>" href="/visit/">
 					Plan Your Visit
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=getActivePageClass("Education");?>" href="/education/">
+				<a class="nav-link <?=getActivePageClass("Education");?>" href="/education.php">
 					Education
 				</a>
 			</li>
@@ -35,22 +35,22 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=getActivePageClass("Volunteer");?>" href="/volunteer/">
+				<a class="nav-link <?=getActivePageClass("Volunteer");?>" href="/volunteer.php">
 					Volunteer
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=getActivePageClass("Donate");?>" href="/donate/">
+				<a class="nav-link <?=getActivePageClass("Donate");?>" href="/donate.php">
 					Donate
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=getActivePageClass("Contact Us");?>" href="/contact/">
+				<a class="nav-link <?=getActivePageClass("Contact Us");?>" href="/contact.php">
 					Contact
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=getActivePageClass("FAQ");?>" href="/faq/">
+				<a class="nav-link <?=getActivePageClass("FAQ");?>" href="/faq.php">
 					FAQ
 				</a>
 			</li>

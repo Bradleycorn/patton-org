@@ -41,7 +41,7 @@
 					</ul>
 
 					<p>
-						For more information about making a gift, please <a href="/contact/">contact us</a>, 
+						For more information about making a gift, please <a href="/contact.php">contact us</a>, 
 						call <a href="tel:(502) 943-8977">(502) 943-8977</a>,
 						or email <a href="mailto:dhibbsgeneralpatton@gmail.com">dhibbsgeneralpatton@gmail.com</a>.
 					</p>

@@ -89,19 +89,19 @@
 
 
 	function SetSectionInfo() {
-		global $SiteSection, $SubSection, $PathInfo, $RequestFile, $PageTitle, $SectionNavFile, $SectionTitle;
+		global $SiteSection, $SubSection, $PathInfo, $RequestFile, $PageTitle, $SectionTitle;
 		$SiteSection = null;
 		$SubSection = null;
 		$RequestFile = null;
 		$PageTitle = null;
-		$SectionNavFile = null;
 		$SectionTitle = null;
 
 
 		//$path will have the "path" section of the BROWSER url
 		//	That is, no domain, and no querystring ... so something like:
 		// /path/to/file.php    or ...  /path/to/folder/
-		$path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+		$path = parse_url($_SERVER['SCRIPT_NAME']);
+		$path = implode("/", $path);
 
 
 		//if $path is to a folder, we need to add a filename on the end,
@@ -122,7 +122,6 @@
 			$PathInfo = $pathParts;
 			$SiteSection = $pathParts[0];
 			$PageTitle = ucwords($SiteSection);
-			$SectionNavFile = Slugify($SiteSection).'.php';
 			$SectionTitle = ucwords($SiteSection);
 
 			if (count($pathParts) > 1) {
@@ -135,41 +134,6 @@
 			}
 		}
 	}
-
-	function Slugify($text, $makeLowerCase = true) {
-		// replace non letter or digits by -
-		$text = preg_replace('~[^\\pL\d]+~u', '-', $text);
-
-		// trim
-		$text = trim($text, '-');
-
-		// transliterate
-		$text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
-
-		// lowercase
-		if ($makeLowerCase) {
-			$text = strtolower($text);
-		}
-
-		// remove unwanted characters
-		$text = preg_replace('~[^-\w]+~', '', $text);
-
-		if (empty($text)) {
-			return 'n-a';
-		}
-
-		return $text;
-	}
-
-	function Deslugify($text, $ucwords = true) {
-		$text = str_ireplace("-", " ", $text);
-
-		if ($ucwords)
-			$text = ucwords($text);
-
-		return $text;
-	}
-
 	function FormatPhone($phone) {
 		if (empty($phone)) return "";
 

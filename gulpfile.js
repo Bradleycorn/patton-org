@@ -8,6 +8,12 @@ const $ = require('gulp-load-plugins')();
 const map = require('map-stream');
 const beep = require('beepbeep');
 
+const NODE_VER = Number(process.version.match(/^v(\d+\.\d+)/)[1]);
+
+if (NODE_VER <= 0.1) {
+	console.log("NODE 0.10 detected .. Enabling Promise polyfill");
+	require('es6-promise').polyfill();
+}
 
 const SRC_PATH = "src";
 const SRC_HOST = "local.generalpatton.org";
@@ -98,7 +104,7 @@ gulp.task('watch', ['clean', 'browser-sync', 'sass-dist', 'lint-js'], function()
  *			--local 	- Perform a build for your local machine (this is probably never used)
  *
  */
-gulp.task('build', ['enable-dist', 'clean', 'copy-files', 'compress-images', 'sass-dist', 'minify']);
+gulp.task('build', ['enable-dist', 'clean', 'copy-files', 'compress-images', 'sass-dist', 'minify', 'replace']);
 
 
 
@@ -127,7 +133,6 @@ gulp.task('browser-sync', function() {
 	proxyServer.init({
 		proxy: SRC_HOST,
 		xip: false,
-		host: 'bradb-mbp',
 		port: 8080,
 		ghostMode: true
 	});
@@ -230,11 +235,25 @@ gulp.task('minify', ['clean', 'sass-dist'], function() {
 	const FILTER = $.filter(["**/*.js", "!**/_/lib/**/*.js"], {restore: true});
 
 
-	gulp.src(SRC_FILES)
+	var stream = gulp.src(SRC_FILES)
 		.pipe($.useref())
 		.pipe(FILTER)
 		.pipe($.uglify())
 		.pipe(FILTER.restore)
+		.pipe(gulp.dest(DIST_PATH));
+
+	return stream;
+});
+
+gulp.task('replace', ['clean', 'minify'], function() {
+	console.log("Replacing text in files ...");
+
+	const SRC_FILES = [
+      DIST_PATH + '/**/*.+(html|php|inc)'
+	];
+
+	gulp.src(SRC_FILES)
+		.pipe($.replace('$_SERVER[\'DOCUMENT_ROOT\']', '\'c:\\inetpub\\websites\\generalpatton_org\''))
 		.pipe(gulp.dest(DIST_PATH));
 });
 
