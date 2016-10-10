@@ -357,7 +357,7 @@ gulp.task('compress-images', ['clean'], function() {
  * The copy-files task is reponsible for copying any files that need to wind up in the dist folder but aren't handled by any other processing.
  */
 gulp.task('copy-files', ['clean'], function() {
-	gulp.src(SRC_PATH+"/_/res/data/**/*.*", {base: SRC_PATH})
+	gulp.src(SRC_PATH+"/_/res/pdf/**/*.*", {base: SRC_PATH})
 	.pipe(gulp.dest(DIST_PATH));
 
 	gulp.src(SRC_PATH+"/_/bower/fontawesome/fonts/**/*.*", {base: SRC_PATH+"/_/bower/fontawesome"})

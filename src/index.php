@@ -42,26 +42,17 @@
 							<div class="hours">
 								<h6>MUSEUM HOURS</h6>
 								<p>
-									Tuesday through Friday: 10:00am - 4:00pm <br />
-									Saturday &amp; Federal Holidays: 10:00am - 5:30pm
+									Tuesday through Friday: 10:00am - 4:30pm <br />
+									Saturday: 10:00am - 5:30pm
 								</p>
 								<p>
-									CLOSED: Sundays &amp; Mondays, Thanksgiving, <br />
-									Dec. 19 - Jan. 2, 2017 (Christmas &amp; New Years)
+									CLOSED: Sundays &amp; Mondays<br />
+									Dec. 19 - Jan. 2, 2017
 								</p>
 								<p class="admission">
 									Free Admission
 								</p>								
 							</div>
-							<div class="panel">
-								<a href="#" class="panel-title">
-									Exhibit Highlights
-								</a>
-								<a href="#">
-									<img src="/_/img/home/barracks.jpg" class="img-fluid" />
-								</a>
-							</div>
-
 						</div>
 
 						<div class="col-md-12 col-lg-6 col-lg-pull-6">

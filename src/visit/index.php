@@ -38,20 +38,17 @@
 							<p>
 								<b>Weekdays</b><br/>
 								10:00 a.m. to 4:30 p.m. Tuesday - Friday (Eastern Standard Time)<br />
-								Closed Mondays and Sundays
 							</p>
 
 							<p>
-								<b>Saturdays and Federal Holidays</b><br/>
+								<b>Saturdays</b><br/>
 								10:00 a.m. to 5:30 p.m. Eastern Standard Time
 							</p>
 
 							<p>
 								<b>Closed</b><br/>
-								January 1st<br />
-								Easter Sunday<br />
-								Thanksgiving Day<br />
-								December 23rd - January 2
+								Sundays &amp; Mondays<br />
+								December 19 - January 2, 2017
 							</p>
 
 							
@@ -65,10 +62,10 @@
 							<nav class="page-menu">
 								<header>More Information</header>
 								<ul class="list-unstyled">
-									<li><a href="/visit/directions/">Directions</a></li>
-									<li><a href="/visit/nearby-attractions/">Nearby Attractions</a></li>
-									<li><a href="/visit/groups/">Groups &amp; Field Trips</a></li>
-									<li><a href="/faq/">FAQ</a></li>
+									<li><a href="/visit/directions.php">Directions</a></li>
+									<li><a href="/visit/nearby-attractions.php">Nearby Attractions</a></li>
+									<li><a href="/visit/groups.php">Groups &amp; Field Trips</a></li>
+									<li><a href="/faq.php">FAQ</a></li>
 								</ul>
 							</nav>
 
