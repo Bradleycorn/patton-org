@@ -34,8 +34,6 @@
 						40121-0208
 					</address>
 
-					<div id="MapContainer"></div>
-
 					<h3 class="directions-header">Directions</h3>
 					<div class="row">
 						<div class="col-sm-6 directions">
@@ -62,7 +60,15 @@
 					<p>
 						At the Chaffee Gate, all adults must present a valid photo ID such as a driver's license.<br/>
 						<a href="http://www.knox.army.mil/About/entering.aspx" target="_blank">Read more information</a> about entering Fort Knox.
+						If your driver's license is from the states of Illinois, Minnesota,
+						Missouri, New Mexico or Washington, please bring an additional form of ID. A
+						list of acceptable forms of ID can be found <a href="http://www.knox.army.mil/About/realid.aspx">here</a>. Youth under the age of 18 are
+						not required to show an ID. Foreign Nationals are not admitted to the Fort
+						Knox Military Post.
 					</p>
+
+					<div id="MapContainer"></div>
+
 				</section>
 			</div>
 		</main>

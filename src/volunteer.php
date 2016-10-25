@@ -28,12 +28,13 @@
 
 					<?php require_once(SNIPPETS."/page-callout.inc"); ?>
 
+
 					<p>
-						Interested in volunteering at the General George Patton Museum?  Museum
-						volunteers do a wide range of jobs, including acting as tour guides, delivering
-					    school programs, assisting in the repair and restoration of historic tanks
-    					[and vehicles] and being Museum ambassadors at festivals, parades and the
-    					State Fair.
+						Interested in volunteering at the
+						General George Patton Museum? Museum volunteers do a wide range of jobs,
+						including greeting visitors, delivering programs, assisting with collections,
+						and being Museum ambassadors at festivals, parades and the State Fair. Call <a href="tel:5026244824">(502) 624-4824</a> 
+						or <a href="mailto:alice.m.hart2.civ@mail.mil">email</a> for more information.
     				</p>
 
 					<p>Volunteers are expected to donate at least 10 hours of time to the museum each year to remain a General George Patton Museum volunteer. To become a Museum volunteer, go to the following website:<br><a href="https://www.myarmylifetoo.com/skins/malt/display.aspx?Action=volunteer_opportunity_search&amp;mode=User&amp;moduleid=38E354F2-EC97-4e36-8690-5C91BBA10B69" target="_blank">My Army Life Too</a> and follow the enrollment procedure.</p>

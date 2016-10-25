@@ -54,7 +54,7 @@
 							
 							<h4 class="section-title">Admission</h4>
 							<p>
-								Admission to the General George Patton Museum is free. The museum is open to the public. Self-guided tours. To book a group tour with a tour guide, please call <a href="tel:502-624-6350">502-624-6350</a>. 
+								Admission to the General George Patton Museum is free. The museum is open to the public. Self-guided tours. 
 							</p>
 						</div>
 						<div class="col-sm-4">

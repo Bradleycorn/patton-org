@@ -28,10 +28,8 @@
 
 					<?php require_once(SNIPPETS."/page-callout.inc"); ?>
 
-					<h3 class="section-title">
-						In development...
-					</h3>
-										
+					
+					<iframe src ="http://www.generalpatton.org/sentryfile/sentryfile/search_quick.aspx?published=YES" width="100%" scrolling="auto" height="450"></iframe>										
 				</section>
 			</div>
 		</main>

@@ -53,13 +53,37 @@
 									Free Admission
 								</p>								
 							</div>
+							<div class="panel">
+								<a href="#" class="panel-title">
+									EXHIBIT HIGHLIGHTS
+								</a>
+								<div class="img-wrapper">
+									<a href="#">
+										<img src="/_/img/home/helmet.jpg" class="img-fluid" />
+									</a>
+								</div>
+							</div>
 						</div>
 
 						<div class="col-md-12 col-lg-6 col-lg-pull-6">
 							<img src="/_/img/home/museum-flag.jpg" class="img-fluid" />
 
 							<div id="Announcement">
-								<h3>News &amp; Notes</h3>
+								<h3>UPCOMING EVENTS</h3>
+								<?php if (time() < mktime(0,0,0,11,11,2016)): ?>
+									<p>
+			                            <b><a href="/_/res/pdf/coin-giveaway.pdf">GEORGE S.  PATTON  COIN GIVEAWAY</a></b><br />
+                                        November 7th - 10th
+                                    </p>
+                                <?php endif; ?>
+
+								<?php if (time() < mktime(0,0,0,11,13,2016)): ?>
+									<p>
+										<b><a href="/_/res/pdf/art-of-war.pdf">MILITARY MODEL AND ART SHOW</a></b><br />
+        	                            November 12th, 2016<br />                                    
+            	                        10:00 AM - 4.30 PM
+                                     </p>
+                                <?php endif; ?>
 							</div>
 
 						</div>
