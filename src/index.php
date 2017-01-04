@@ -40,28 +40,64 @@
 
 						<div class="col-md-12 col-lg-6 col-lg-push-6">
 							<div class="hours">
-								<h6>MUSEUM HOURS</h6>
-								<p>
-									Tuesday through Friday: 10:00am - 4:30pm <br />
-									Saturday: 10:00am - 5:30pm
-								</p>
-								<p>
-									CLOSED: Sundays &amp; Mondays<br />
-									Dec. 19 - Jan. 2, 2017
-								</p>
+								<?php
+									$now = time();
+									$winter_start = mktime(0,0,0,12,1,2016);
+									$winter_end = mktime(0,0,0,3,31,2017)
+								?>
+
+								<?php if ($now > $winter_start && $now < $winter_end) : ?>
+									<h6>WINTER MUSEUM HOURS</h6>
+									<p>
+										January 1 - March 31, 2017<br />
+								        Tue-Sat: 10:00am - 3:00pm
+								    </p>								    
+								<?php else: ?>
+									<h6>MUSEUM HOURS</h6>
+								    <p>
+										April 1 - December 31, 2017<br />
+									    Tue-Sat: 10:00am - 4:30pm
+									</p>
+							    <?php endif; ?>
+							    <p>Closed Saturdays &amp; Sundays</p>
 								<p class="admission">
 									Free Admission
 								</p>								
 							</div>
 							<div class="panel">
-								<a href="#" class="panel-title">
-									EXHIBIT HIGHLIGHTS
-								</a>
-								<div class="img-wrapper">
-									<a href="#">
-										<img src="/_/img/home/helmet.jpg" class="img-fluid" />
-									</a>
-								</div>
+
+							    <p>
+							    	<b class="date-header">Regular Museum Hours</b><br />
+									April 1 - December 31, 2017<br />
+								    Tue-Sat: 10:00am - 4:30pm
+								</p>
+
+								<p><b class="date-header">Open:</b><br />
+									May 29, 2017 Memorial Day <br />
+									July 4, 2017 Independence Day        <br />
+									November 10, 2017 Veterans Day (observed)<br />
+									November 11, 2017 Veterans Day
+								</p>
+
+								<p><b class="date-header">Closed:</b></br>     
+									Sundays &amp; Mondays<br />
+
+									<?php if (date("m") == "12") :?><span class="date-callout date-header" style="padding: .25em .15em"><?php endif; ?>
+							        December 19 - December 31, 2016
+									<?php if (date("m") == "12") :?></span><?php endif; ?>
+									 <br />
+							        January 1, 2017 New Year's Day<br />
+							        January 2, 2017 New Year's Day (observed)<br />
+							        January 16, 2017 Martin Luther King Day<br />
+							        February 20, 2017 Presidents' Day<br />
+							        September 4, 2017 Labor Day<br />
+							        October 9, 2017 Columbus Day<br />
+							        November 23, 2017 Thanksgiving Day<br />
+							        December 25, 2017 Christmas Day
+						        </p>
+
+
+
 							</div>
 						</div>
 
