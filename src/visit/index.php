@@ -44,13 +44,13 @@
 							<p <?php if ($now > $winter_start && $now < $winter_end) : ?>class="date-callout"<?php endif; ?>>
 								<b class="date-header">Winter Hours:</b> <br />
 								January 1 - March 31, 2017<br />
-						        Tue-Sat: 10:00am - 3:00pm
+						        Tue-Sat: 10:00am - 3:00pm EST
 						    </p>
 
 						    <p>
 								<b class="date-header">Regular Hours:</b><br /> 
 								April 1 - December 31, 2017<br />
-							    Tue-Sat: 10:00am - 4:30pm
+							    Tue-Sat: 10:00am - 4:30pm EST
 							</p>
 
 							<p><b class="date-header">Open:</b><br />
@@ -63,12 +63,7 @@
 							<p><b class="date-header">Closed:</b></br>     
 								Sundays &amp; Mondays<br />
 
-								<?php if (date("m") == "12") :?><span class="date-callout date-header" style="padding: .25em .15em"><?php endif; ?>
-						        December 19 - December 31, 2016
-								<?php if (date("m") == "12") :?></span><?php endif; ?>
 								 <br />
-						        January 1, 2017 New Year's Day<br />
-						        January 2, 2017 New Year's Day (observed)<br />
 						        January 16, 2017 Martin Luther King Day<br />
 						        February 20, 2017 Presidents' Day<br />
 						        September 4, 2017 Labor Day<br />
