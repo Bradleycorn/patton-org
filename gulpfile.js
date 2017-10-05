@@ -365,6 +365,9 @@ gulp.task('copy-files', ['clean'], function() {
 
 	gulp.src(SRC_PATH+"/web.config")
 	.pipe(gulp.dest(DIST_PATH));
+
+	gulp.src(SRC_PATH+"/_/lib/ga/ga.js", {base: SRC_PATH})
+	.pipe(gulp.dest(DIST_PATH));
 });
 
 

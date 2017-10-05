@@ -33,6 +33,23 @@
 
 					<div class="row">
 						<div class="col-sm-8">
+							<p>
+								<b class="date-header">       
+									MUSEUM CLOSED TO THE PUBLIC <br />
+       								November 1, 2017- May 1, 2018 <br />
+										For Building &amp; Visitor Access Improvements
+								</b>
+					        </p>
+					        <p>
+					        	We regret any inconvenience this may cause, but look
+								forward to offering an even better museum experience.
+								<br />
+					            Thank You for Your Support.
+					        </p>
+					        <p>
+						    	Please check this space for future updates.
+						    </p>
+
 							<h4 class="section-title">Hours</h4>
 
 							<?php
@@ -40,25 +57,29 @@
 								$winter_start = mktime(0,0,0,12,1,2016);
 								$winter_end = mktime(0,0,0,3,31,2017)
 							?>
-
-							<p <?php if ($now > $winter_start && $now < $winter_end) : ?>class="date-callout"<?php endif; ?>>
-								<b class="date-header">Winter Hours:</b> <br />
-								January 1 - March 31, 2017<br />
-						        Tue-Sat: 10:00am - 3:00pm EST
-						    </p>
+							<?php if ($now > $winter_start && $now < $winter_end) : ?>
+								<p class="date-callout">
+									<b class="date-header">Winter Hours:</b> <br />
+									January 1 - March 31, 2017<br />
+							        Tue-Sat: 10:00am - 3:00pm EST
+							    </p>
+							<?php endif; ?>
 
 						    <p>
 								<b class="date-header">Regular Hours:</b><br /> 
-								April 1 - December 31, 2017<br />
-							    Tue-Sat: 10:00am - 4:30pm EST
+								April 1 - October 31, 2017<br />
+							    <b>Tuesday - Friday</b><br />
+							    10:00am - 4:30pm EST<br />
+							    <b>Saturdays &amp; Federal Holidays</b><br />
+							    10:00am - 5:30pm EST
 							</p>
 
-							<p><b class="date-header">Open:</b><br />
+							<!--p><b class="date-header">Open:</b><br />
 								May 29, 2017 Memorial Day <br />
 								July 4, 2017 Independence Day        <br />
 								November 10, 2017 Veterans Day (observed)<br />
 								November 11, 2017 Veterans Day
-							</p>
+							</p-->
 
 							<p><b class="date-header">Closed:</b></br>     
 								Sundays &amp; Mondays<br />

@@ -3,6 +3,7 @@
 <script src="/_/lib/bootstrap/js/bootstrap.js"></script>
 <!-- endbuild -->
 
+<script src="/_/lib/ga/ga.js"></script>
 
 <!-- build:js(src) /_/js/scripts.js -->
 <script src="/_/js/global.js"></script>
