@@ -1,6 +1,6 @@
 <?php require($_SERVER['DOCUMENT_ROOT'] . '/_/inc/init.inc'); ?>
-<?php 
-	$PageTitle = "Home"; 
+<?php
+	$PageTitle = "Home";
 	$PageQuote = "Better to fight for something than to live for nothing.";
 ?>
 <!doctype html>
@@ -37,12 +37,12 @@
 	</head>
 	<body>
 
-	
-		<!-- the museum is closing for renovations. We're going to 
+
+		<!-- the museum is closing for renovations. We're going to
 		remove the standard header for now, and put up a custom version
 		with the closure info. When the museum reopens,
 		re-enable the site-header.inc, and delete the custom header.
-		Also, remove the <style> from the header of this page, 
+		Also, remove the <style> from the header of this page,
 		and restore the main content area to it's normal state (see below) -->
 		<?php //require_once(FRAGMENTS."/site-header.inc"); ?>
 
@@ -60,9 +60,9 @@
 							<div class="hours">
 
 								<p>
-									<b class="date-header">       
+									<b class="date-header">
 										MUSEUM CLOSED TO THE PUBLIC <br />
-           								November 1, 2017- May 1, 2018 <br />
+           								November 1, 2017- June 1, 2018 <br />
  										For Building &amp; Visitor Access Improvements
 									</b>
 						        </p>
@@ -112,11 +112,11 @@
 					<?php require_once(FRAGMENTS."/site-nav.inc"); ?>
 				</aside>
 
-				<section id="PrimaryContent" class="col-md-9"> 
+				<section id="PrimaryContent" class="col-md-9">
 					<div class="feature">
 						<div class="feature-content">
 							<p>
-								Stories and Artifacts<br/> 
+								Stories and Artifacts<br/>
 								from the Life and<br />
 								Leadership of
 							</p>
@@ -161,7 +161,7 @@
 										<b class="date-header">Winter Museum Hours</b><br />
 										January 1 - March 31, 2017<br />
 								        Tue-Sat: 10:00am - 3:00pm EST
-								    </p>								    
+								    </p>
 							    <?php endif; ?>
 							    <p>
 							    	<b class="date-header">Regular Museum Hours</b><br />
@@ -188,7 +188,7 @@
 						<div class="col-md-12 col-lg-6">
 							<div class="hours">
 
-								<p><b class="date-header">Closed:</b></br>     
+								<p><b class="date-header">Closed:</b></br>
 									Sundays &amp; Mondays<br />
 									<br />
 							        January 16, 2017 Martin Luther King Day<br />

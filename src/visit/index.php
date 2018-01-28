@@ -1,6 +1,6 @@
 <?php require($_SERVER['DOCUMENT_ROOT'] . '/_/inc/init.inc'); ?>
-<?php 
-	$PageTitle = "Plan Your Visit"; 
+<?php
+	$PageTitle = "Plan Your Visit";
 	$PageQuote = "Better to fight for something than to live for nothing";
 	$CalloutCopy = "Extraordinary stories of Patton's upbringing, education, and monumental achievements";
 ?>
@@ -22,11 +22,11 @@
 					<?php require_once(FRAGMENTS."/site-nav.inc"); ?>
 				</aside>
 
-				<section id="PrimaryContent" class="col-md-9"> 
+				<section id="PrimaryContent" class="col-md-9">
 
 					<h1 class="page-title"><?=$PageTitle;?></h1>
 					<p>
-						Welcome to the General George Patton Museum, where the legacy of leadership continues to inspire each generation. Come explore the history of the United States Army through personal stories, artifacts and film while viewing the foremost collection of Patton material in the world. Let the General George Patton Museum inspire you, awe you, and enlighten you. 
+						Welcome to the General George Patton Museum, where the legacy of leadership continues to inspire each generation. Come explore the history of the United States Army through personal stories, artifacts and film while viewing the foremost collection of Patton material in the world. Let the General George Patton Museum inspire you, awe you, and enlighten you.
 					</p>
 
 					<?php require_once(SNIPPETS."/page-callout.inc"); ?>
@@ -34,9 +34,9 @@
 					<div class="row">
 						<div class="col-sm-8">
 							<p>
-								<b class="date-header">       
+								<b class="date-header">
 									MUSEUM CLOSED TO THE PUBLIC <br />
-       								November 1, 2017- May 1, 2018 <br />
+       								November 1, 2017- June 1, 2018 <br />
 										For Building &amp; Visitor Access Improvements
 								</b>
 					        </p>
@@ -66,7 +66,7 @@
 							<?php endif; ?>
 
 						    <p>
-								<b class="date-header">Regular Hours:</b><br /> 
+								<b class="date-header">Regular Hours:</b><br />
 								April 1 - October 31, 2017<br />
 							    <b>Tuesday - Friday</b><br />
 							    10:00am - 4:30pm EST<br />
@@ -81,7 +81,7 @@
 								November 11, 2017 Veterans Day
 							</p-->
 
-							<p><b class="date-header">Closed:</b></br>     
+							<p><b class="date-header">Closed:</b></br>
 								Sundays &amp; Mondays<br />
 
 								 <br />
@@ -92,10 +92,10 @@
 						        November 23, 2017 Thanksgiving Day<br />
 						        December 25, 2017 Christmas Day
 					        </p>
-							
+
 							<h4 class="section-title">Admission</h4>
 							<p>
-								Admission to the General George Patton Museum is free. The museum is open to the public. Self-guided tours. 
+								Admission to the General George Patton Museum is free. The museum is open to the public. Self-guided tours.
 							</p>
 						</div>
 						<div class="col-sm-4">
@@ -113,7 +113,7 @@
 
 						</div>
 					</div>
-									
+
 				</section>
 			</div>
 		</main>
