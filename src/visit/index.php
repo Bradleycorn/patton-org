@@ -36,8 +36,8 @@
 							<p>
 								<b class="date-header">
 									MUSEUM CLOSED TO THE PUBLIC <br />
-       								November 1, 2017- June 1, 2018 <br />
-										For Building &amp; Visitor Access Improvements
+									For Building &amp; Visitor Access Improvements<br />
+									Re-opening Summer, 2018
 								</b>
 					        </p>
 					        <p>
