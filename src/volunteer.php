@@ -34,12 +34,14 @@
 						General George Patton Museum? Museum volunteers do a wide range of jobs,
 						including greeting visitors, delivering programs, assisting with collections,
 						and being Museum ambassadors at festivals, parades and the State Fair. Call <a href="tel:5026244824">(502) 624-4824</a> 
-						or <a href="mailto:alice.m.hart2.civ@mail.mil">email</a> for more information.
+						or <a href="mailto:usarmy.knox.usacc.mbx.hq-patton-museum@mail.mil">email</a> for more information.
     				</p>
 
-					<p>Volunteers are expected to donate at least 10 hours of time to the museum each year to remain a General George Patton Museum volunteer. To become a Museum volunteer, go to the following website:<br><a href="https://www.myarmylifetoo.com/skins/malt/display.aspx?Action=volunteer_opportunity_search&amp;mode=User&amp;moduleid=38E354F2-EC97-4e36-8690-5C91BBA10B69" target="_blank">My Army Life Too</a> and follow the enrollment procedure.</p>
+					<p>Volunteers are expected to donate at least 10 hours of time to the museum each year to remain a General George Patton Museum volunteer. 
+					To become a Museum volunteer, go to the following website:<br>
+					<a href="https://www.myarmyonesource.com/default.aspx" target="_blank">Army One Source</a> and follow the enrollment procedure.</p>
 					
-					<p>Have questions?  Please <a href="mailto:education@generalpatton.org">email us</a>.</p>
+					<p>Have questions?  Please <a href="mailto:usarmy.knox.usacc.mbx.hq-patton-museum@mail.mil">email us</a>.</p>
 				</section>
 			</div>
 		</main>

@@ -33,25 +33,8 @@
 
 					<div class="row">
 						<div class="col-sm-8">
-							<p>
-								<b class="date-header">
-									MUSEUM CLOSED TO THE PUBLIC <br />
-									For Building &amp; Visitor Access Improvements<br />
-									Re-opening Summer, 2018
-								</b>
-					        </p>
-					        <p>
-					        	We regret any inconvenience this may cause, but look
-								forward to offering an even better museum experience.
-								<br />
-					            Thank You for Your Support.
-					        </p>
-					        <p>
-						    	Please check this space for future updates.
-						    </p>
-
 							<h4 class="section-title">Hours</h4>
-
+<!--
 							<?php
 								$now = time();
 								$winter_start = mktime(0,0,0,12,1,2016);
@@ -64,14 +47,13 @@
 							        Tue-Sat: 10:00am - 3:00pm EST
 							    </p>
 							<?php endif; ?>
-
+-->
 						    <p>
 								<b class="date-header">Regular Hours:</b><br />
-								April 1 - October 31, 2017<br />
-							    <b>Tuesday - Friday</b><br />
+							    <b>Tuesday - Saturday</b><br />
 							    10:00am - 4:30pm EST<br />
-							    <b>Saturdays &amp; Federal Holidays</b><br />
-							    10:00am - 5:30pm EST
+								<b>Federal Holidays</b><br />
+								Memorial Day, Independence Day, Labor Day and Veterans Day							
 							</p>
 
 							<!--p><b class="date-header">Open:</b><br />
@@ -83,14 +65,8 @@
 
 							<p><b class="date-header">Closed:</b></br>
 								Sundays &amp; Mondays<br />
-
-								 <br />
-						        January 16, 2017 Martin Luther King Day<br />
-						        February 20, 2017 Presidents' Day<br />
-						        September 4, 2017 Labor Day<br />
-						        October 9, 2017 Columbus Day<br />
-						        November 23, 2017 Thanksgiving Day<br />
-						        December 25, 2017 Christmas Day
+								Thanksgiving Day
+								Christmas Day
 					        </p>
 
 							<h4 class="section-title">Admission</h4>
