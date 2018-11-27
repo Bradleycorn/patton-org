@@ -49,21 +49,9 @@
 
 						<?php
 							$now = time();
-							$winter_start = mktime(0,0,0,12,1,2016);
-							$winter_end = mktime(0,0,0,3,31,2017)
 						?>
 
 							<div class="hours">
-								<!--
-								<?php if ($now > $winter_start && $now < $winter_end) : ?>
-									<p>
-										<b class="date-header">Winter Museum Hours</b><br />
-										January 1 - March 31, 2017<br />
-								        Tue-Sat: 10:00am - 3:00pm EST
-								    </p>
-							    <?php endif; ?>
-								-->
-
 								<p>
 									<b class="date-header">Regular Museum Hours:</b>
 								</p>
