@@ -34,20 +34,6 @@
 					<div class="row">
 						<div class="col-sm-8">
 							<h4 class="section-title">Hours</h4>
-<!--
-							<?php
-								$now = time();
-								$winter_start = mktime(0,0,0,12,1,2016);
-								$winter_end = mktime(0,0,0,3,31,2017)
-							?>
-							<?php if ($now > $winter_start && $now < $winter_end) : ?>
-								<p class="date-callout">
-									<b class="date-header">Winter Hours:</b> <br />
-									January 1 - March 31, 2017<br />
-							        Tue-Sat: 10:00am - 3:00pm EST
-							    </p>
-							<?php endif; ?>
--->
 						    <p>
 								<b class="date-header">Regular Hours:</b><br />
 							    <b>Tuesday - Saturday</b><br />
@@ -56,18 +42,21 @@
 								Memorial Day, Independence Day, Labor Day and Veterans Day							
 							</p>
 
-							<!--p><b class="date-header">Open:</b><br />
-								May 29, 2017 Memorial Day <br />
-								July 4, 2017 Independence Day        <br />
-								November 10, 2017 Veterans Day (observed)<br />
-								November 11, 2017 Veterans Day
-							</p-->
-
-							<p><b class="date-header">Closed:</b></br>
+							<p><b class="date-header">Closed:</b><br/>
 								Sundays &amp; Mondays<br />
 								Thanksgiving Day
 								Christmas Day
 					        </p>
+
+							<?php
+								$now = time();
+								$maint_end = mktime(0,0,0,1,15,2019);
+								if ($now < $maint_end) : 
+							?>
+								<p>	
+								The museum will be closed from December 23rd, 2018 to January 14th, 2019 to complete repairs and exhibit maintenance.
+								</p>
+							<?php endif; ?>
 
 							<h4 class="section-title">Admission</h4>
 							<p>

@@ -40,8 +40,8 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=getActivePageClass("Donate");?>" href="/donate.php">
-					Donate
+				<a class="nav-link <?=getActivePageClass("Donate");?>" href="http://generalpattonfoundation.org/">
+					Donate: Patton Foundation
 				</a>
 			</li>
 			<li class="nav-item">

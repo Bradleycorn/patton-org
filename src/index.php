@@ -76,6 +76,15 @@
 									Memorial Day, Independence Day, Labor Day and Veterans Day
 								</p>
 
+								<?php
+									$maint_end = mktime(0,0,0,1,15,2019);
+									if ($now < $maint_end) : 
+								?>
+									<p>	
+									The museum will be closed from December 23rd, 2018 to January 14th, 2019 to complete repairs and exhibit maintenance.
+									</p>
+								<?php endif; ?>
+
 								<p><b class="date-header">Free Admission</b></p>
 
 							</div>
