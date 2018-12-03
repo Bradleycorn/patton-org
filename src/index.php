@@ -66,6 +66,12 @@
 
 								<?php
 									$maint_end = mktime(0,0,0,1,15,2019);
+									$bush_end = mktime(0,0,0,12,6,2018);
+									if ($now < $bush_end): 
+								?>
+									<p>Closed on <b>December 5th</b> in honor of the passing of 41st President George H. W. Bush.</p>
+								<?php
+									endif;	
 									if ($now < $maint_end) : 
 								?>
 									<p>	
