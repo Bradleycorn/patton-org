@@ -65,17 +65,11 @@
 								</p>
 
 								<?php
-									$maint_end = mktime(0,0,0,1,15,2019);
-									$bush_end = mktime(0,0,0,12,6,2018);
-									if ($now < $bush_end): 
-								?>
-									<p>Closed on <b>December 5th</b> in honor of the passing of 41st President George H. W. Bush.</p>
-								<?php
-									endif;	
+									$maint_end = mktime(0,0,0,4,3,2019);
 									if ($now < $maint_end) : 
 								?>
 									<p>	
-									The museum will be closed from December 23rd, 2018 to January 14th, 2019 to complete repairs and exhibit maintenance.
+									The museum will be closed from December 23rd, 2018 to April 2nd, 2019 to complete repairs and exhibit maintenance.
 									</p>
 								<?php endif; ?>
 
