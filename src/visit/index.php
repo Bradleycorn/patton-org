@@ -39,7 +39,7 @@
 							    <b>Tuesday - Saturday</b><br />
 							    10:00am - 4:30pm EST<br />
 								<b>Federal Holidays</b><br />
-								Memorial Day, Independence Day, Labor Day and Veterans Day							
+								Memorial Day, Independence Day and Veterans Day							
 							</p>
 
 							<p><b class="date-header">Closed:</b><br/>
@@ -50,11 +50,11 @@
 
 							<?php
 								$now = time();
-								$maint_end = mktime(0,0,0,4,3,2019);
+								$maint_end = mktime(0,0,0,4,17,2019);
 								if ($now < $maint_end) : 
 							?>
 								<p>	
-								The museum will be closed from December 23rd, 2018 to April 2nd, 2019 to complete repairs and exhibit maintenance.
+								The museum will be closed from December 23rd, 2018 to April 16th, 2019 to complete repairs and exhibit maintenance.
 								</p>
 							<?php endif; ?>
 

@@ -104,7 +104,7 @@ gulp.task('watch', ['clean', 'browser-sync', 'sass-dist', 'lint-js'], function()
  *			--local 	- Perform a build for your local machine (this is probably never used)
  *
  */
-gulp.task('build', ['enable-dist', 'clean', 'copy-files', 'compress-images', 'sass-dist', 'minify', 'replace']);
+gulp.task('build', ['enable-dist', 'clean', 'copy-files', 'compress-images', 'sass-dist', 'minify']);
 
 
 
@@ -253,7 +253,7 @@ gulp.task('replace', ['clean', 'minify'], function() {
 	];
 
 	gulp.src(SRC_FILES)
-		.pipe($.replace('$_SERVER[\'DOCUMENT_ROOT\']', '\'c:\\inetpub\\websites\\generalpatton_org\''))
+		//.pipe($.replace('$_SERVER[\'DOCUMENT_ROOT\']', '/home/eawprexs/public_html'))
 		.pipe(gulp.dest(DIST_PATH));
 });
 

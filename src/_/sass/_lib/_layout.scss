@@ -45,21 +45,32 @@ html {
 }
 
 #SiteSearch {
-	padding: 1em 0;
+    padding: 1em 0;
+    width: 50%;
+    position: relative;
+    margin: 0px auto;
 
 	input, button {
 		border: none;
 		outline: none;
 		color: $CopyColor;
-		background: rgba(#000, 0.6);
 	}
 
 	input {
-		width: 30%;
+		width: 100%;
 		padding-bottom: 3px;
 		padding-top: 2px;
-		padding-left: 2px;		
-	}
+        padding-left: 2px;
+        padding-right: 30px;		
+		background: rgba(#000, 0.6);
+    }
+    
+    button {
+        position: absolute;
+        right: 0px;
+        margin-top: 2px;
+        background: none;
+    }
 }
 
 
@@ -183,7 +194,11 @@ html {
 		#SiteMenu {
 			margin-top: .5em;
 		}
-	}
+    }
+    
+    #SiteSearch {
+        width: 80%;
+    }
 
 	#PrimaryContent {
 		margin-top: .5em;
