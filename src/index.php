@@ -13,18 +13,7 @@
 
 	</head>
 	<body>
-
-
-		<!-- the museum is closing for renovations. We're going to
-		remove the standard header for now, and put up a custom version
-		with the closure info. When the museum reopens,
-		re-enable the site-header.inc, and delete the custom header.
-		Also, remove the <style> from the header of this page,
-		and restore the main content area to it's normal state (see below) -->
 		<?php require_once(FRAGMENTS."/site-header.inc"); ?>
-
-
-
 		<main class="container">
 			<div class="row">
 				<aside id="SiteNav" class="col-md-3">
@@ -65,11 +54,11 @@
 								</p>
 
 								<?php
-									$maint_end = mktime(0,0,0,4,17,2019);
+									$maint_end = mktime(0,0,0,1,6,2020);
 									if ($now < $maint_end) : 
 								?>
 									<p>	
-									The museum will be closed from December 23rd, 2018 to April 16th, 2019 to complete repairs and exhibit maintenance.
+									The museum will be closed from December 23rd, 2019 to Jan 6th, 2020.
 									</p>
 								<?php endif; ?>
 

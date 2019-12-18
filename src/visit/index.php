@@ -50,11 +50,11 @@
 
 							<?php
 								$now = time();
-								$maint_end = mktime(0,0,0,4,17,2019);
+								$maint_end = mktime(0,0,0,1,6,2020);
 								if ($now < $maint_end) : 
 							?>
 								<p>	
-								The museum will be closed from December 23rd, 2018 to April 16th, 2019 to complete repairs and exhibit maintenance.
+                                The museum will be closed from December 23rd, 2019 to Jan 6th, 2020.
 								</p>
 							<?php endif; ?>
 
