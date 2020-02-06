@@ -49,8 +49,7 @@
 									10:00am - 4:30pm EST
 								</p>
 								<p>	
-									<b>Federal Holidays</b><br />
-									Memorial Day, Independence Day and Veterans Day
+                                    <b>Closed on All Federal Holidays</b>				
 								</p>
 
 								<?php

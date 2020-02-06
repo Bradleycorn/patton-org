@@ -38,8 +38,7 @@
 								<b class="date-header">Regular Hours:</b><br />
 							    <b>Tuesday - Saturday</b><br />
 							    10:00am - 4:30pm EST<br />
-								<b>Federal Holidays</b><br />
-								Memorial Day, Independence Day and Veterans Day							
+								<b>Closed on All Federal Holidays</b>				
 							</p>
 
 							<p><b class="date-header">Closed:</b><br/>
