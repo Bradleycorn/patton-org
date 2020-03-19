@@ -33,6 +33,16 @@
 
 					<div class="row">
 						<div class="col-sm-8">
+                            <p>
+                                <b>
+                                    Due to the COVID-19 outbreak and for the health<br /> 
+                                    and safety of visitors and staff, the Patton Museum <br />
+                                    will regretfully close to visitors <br />
+                                    beginning March 17, 2020 until further notice.<br />  
+                                    We apologize for any inconvenience this causes.
+                                </b>
+                            </p>                         
+<!--                        
 							<h4 class="section-title">Hours</h4>
 						    <p>
 								<b class="date-header">Regular Hours:</b><br />
@@ -61,6 +71,7 @@
 							<p>
 								Admission to the General George Patton Museum is free. The museum is open to the public. Self-guided tours.
 							</p>
+-->                            
 						</div>
 						<div class="col-sm-4">
 

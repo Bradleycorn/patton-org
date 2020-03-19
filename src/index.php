@@ -41,7 +41,15 @@
 						?>
 
 							<div class="hours">
-								<p>
+                                <p>
+                                    <b>
+                                        Due to the COVID-19 outbreak and for the health and safety of visitors and staff,<br />
+                                        the Patton Museum will regretfully close to visitors <br />
+                                        beginning March 17, 2020 until further notice.<br />  
+                                        We apologize for any inconvenience this causes.
+                                    </b>
+                                </p>    
+<!--								<p>
 									<b class="date-header">Regular Museum Hours:</b>
 								</p>
 								<p>	
@@ -62,7 +70,7 @@
 								<?php endif; ?>
 
 								<p><b class="date-header">Free Admission</b></p>
-
+-->
 							</div>
 
 				</section>
