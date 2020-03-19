@@ -12,10 +12,6 @@
 		<div id="HeaderBar" class="col-xs-9" >
 			<div class="bar-wrapper">
 				<div class="bar-content">
-					<form id="SiteSearch" name="SiteSearch" action="/search.php" method="GET">
-						<input type="text" name="q" /><button type="submit"><span class="fa fa-search"></span></button>
-					</form>
-
 					<div class="quote">
 						<?=$PageQuote;?>
 						<span class="author">George S. Patton</span>

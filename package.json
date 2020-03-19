@@ -29,6 +29,7 @@
     "imagemin-pngquant": "^4.2.2",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.1.0",
+    "node-sass": "^4.13.1",
     "map-stream": "0.0.6",
     "yargs": "^4.3.1",
     "es6-promise": "^4.0.2"
