@@ -41,15 +41,26 @@
 						?>
 
 							<div class="hours">
+                                <p style="font-size: 1.5em;">
+                                    <b>
+                                        We are happy to announce that the
+                                        the Patton Museum will re-open on July 7th,<br />
+                                        operating with our Regular Musem Hours.
+                                   </b>
+                                </p>    
                                 <p>
                                     <b>
-                                        Due to the COVID-19 outbreak and for the health and safety of visitors and staff,<br />
-                                        the Patton Museum will regretfully close to visitors <br />
-                                        beginning March 17, 2020 until further notice.<br />  
-                                        We apologize for any inconvenience this causes.
+                                    The following rules will be enforced:
+                                    <ul style="text-align: left; margin: 0px auto 1em; max-width: 640px;">
+                                        <li> All visitors will be required to wear a facemask while inside the museum.</li>
+                                        <li> Visitors are asked to socially distance themselves from others whom they did not come with.</li>   
+                                        <li>There will be hand sanitizing stations set up near theentrance for all visitors to use.</li>  
+                                    </ul>    
+                                    Please follow any instructions given bythe Soldiers on duty.  Thank you and we hope to see you soon!        
                                     </b>
-                                </p>    
-<!--								<p>
+                                </p>
+
+								<p>
 									<b class="date-header">Regular Museum Hours:</b>
 								</p>
 								<p>	
@@ -59,7 +70,6 @@
 								<p>	
                                     <b>Closed on All Federal Holidays</b>				
 								</p>
-
 								<?php
 									$maint_end = mktime(0,0,0,1,6,2020);
 									if ($now < $maint_end) : 

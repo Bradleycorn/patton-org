@@ -32,18 +32,27 @@
 					<?php require_once(SNIPPETS."/page-callout.inc"); ?>
 
 					<div class="row">
-						<div class="col-sm-8">
+						<div class="col-sm-8">                        
+							<h4 class="section-title">Hours</h4>
+                            <p style="font-size: 1.5em;">
+                                <b>
+                                    We are happy to announce that the
+                                    the Patton Museum will re-open on July 7th,
+                                    operating with our Regular Musem Hours.
+                                </b>
+                            </p>    
                             <p>
                                 <b>
-                                    Due to the COVID-19 outbreak and for the health<br /> 
-                                    and safety of visitors and staff, the Patton Museum <br />
-                                    will regretfully close to visitors <br />
-                                    beginning March 17, 2020 until further notice.<br />  
-                                    We apologize for any inconvenience this causes.
+                                The following rules will be enforced:
+                                <ul style="text-align: left; margin: 0px auto 1em; max-width: 640px;">
+                                    <li> All visitors will be required to wear a facemask while inside the museum.</li>
+                                    <li> Visitors are asked to socially distance themselves from others whom they did not come with.</li>   
+                                    <li>There will be hand sanitizing stations set up near theentrance for all visitors to use.</li>  
+                                </ul>    
+                                Please follow any instructions given bythe Soldiers on duty.  Thank you and we hope to see you soon!        
                                 </b>
-                            </p>                         
-<!--                        
-							<h4 class="section-title">Hours</h4>
+                            </p>
+
 						    <p>
 								<b class="date-header">Regular Hours:</b><br />
 							    <b>Tuesday - Saturday</b><br />
@@ -71,7 +80,6 @@
 							<p>
 								Admission to the General George Patton Museum is free. The museum is open to the public. Self-guided tours.
 							</p>
--->                            
 						</div>
 						<div class="col-sm-4">
 
